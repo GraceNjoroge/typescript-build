@@ -16,9 +16,13 @@ petCount.push(5);
 
 console.log(firstName, age, hasPurchased, productNames, petCount);
 
-let productType = 'sports'; // homeGoods, grocery ("magic string")
-if (productType === 'sports') {
+let productType = 'Groceries'; // homeGoods, grocery ("magic string")
+if (productType === 'Sports') {
   console.log('Found sports product type.');
+} else if (productType === 'HomeGooods') {
+  console.log('Found home goods here.');
+} else if (productType === 'Groceries') {
+  console.log('Found tomatoes!!.');
 }
 
 // Using Enums
